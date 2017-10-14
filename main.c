@@ -23,7 +23,9 @@ int main (void){
 	eicrb();
     timer();
 	timsk();
-	reset_timer();
+	reset_timer(); //reset timer
+
+
 
 	 sei();
 	 //DDRE |=(1<<5)|(1<<6)|(1<<7);
